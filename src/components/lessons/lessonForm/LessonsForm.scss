@@ -1,0 +1,18 @@
+.field-container {
+  padding-bottom: 12px;
+  &__label {
+    font-weight: bold;
+  }
+}
+.lesson {
+  margin: 100px;
+
+  &__form {
+    border: 1px solid var(--border-color);
+    padding: 50px;
+  }
+  &__navigator {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
