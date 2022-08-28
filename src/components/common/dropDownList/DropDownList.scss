@@ -1,0 +1,12 @@
+.dropDown {
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__label {
+    margin: 0 8px 0 0;
+    html[dir="rtl"] & {
+      margin: 0 0 0 8px;
+    }
+  }
+}
