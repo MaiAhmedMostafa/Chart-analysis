@@ -1,0 +1,38 @@
+.dashboard {
+  font-size: 18px;
+  position: absolute;
+  width: 100%;
+  padding: 40px;
+  height: 100%;
+  background-color: var(--background-first-color);
+  color: var(--primary-text-color);
+
+  &__container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  &__analysis-chart {
+    font-size: 28px;
+    color: var(--title-color);
+    margin: 8px 0;
+  }
+
+  &__no-of-lessons {
+    font-size: 20px;
+    color: var(--title-color);
+    margin: 8px 0;
+  }
+}
+
+.ddl {
+  &__container {
+    display: flex;
+    margin: 28px 0;
+  }
+  &__item {
+    flex: 1;
+  }
+}
