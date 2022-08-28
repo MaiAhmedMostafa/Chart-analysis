@@ -1,0 +1,24 @@
+.dashboard-chart {
+  &__container {
+    display: flex;
+    height: 450px;
+  }
+  &__chart {
+    flex: 3;
+    background-color: var(--background-secondary-color);
+    padding: 28px;
+  }
+  &__list {
+    flex: 1;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    background-color: var(--background-secondary-color);
+
+    html[dir="rtl"] & {
+      margin-right: 8px;
+      margin-left: auto;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "services": {
+    "lessonsOperation": ""
+  },
+  "staticFieldsNames": {
+    "id": "id",
+    "month": "month",
+    "camp": "camp",
+    "country": "country",
+    "school": "school",
+    "noOfLessons": "lessons"
+  },
+  "chart": {
+    "lineTension": 0.5,
+    "backgroundColor": "rgba(75,192,192,1)",
+    "borderWidth": 2
+  },
+  "isLightTheme": true
+}
