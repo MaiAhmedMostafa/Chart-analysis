@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@configs/*": ["src/configs/*"],
+      "@constants/*": ["src/constants/*"],
+      "@handlers/*": ["src/handlers/*"],
+      "@i18n/*": ["src/i18n/*"],
+      "@redux/*": ["src/redux/*"],
+      "@style/*": ["src/style/*"],
+      "@types/*": ["src/types/*"]
+    }
+  }
+}
